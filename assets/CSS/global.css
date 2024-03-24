@@ -1,0 +1,27 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+    /*Esse box sizing faz considerar a borda como tamanho total, para facilitar o manuseio dos tamanhos
+    usando sempre a borda de base, padronizando o css*/
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F6F8FC; 
+}
+/* O content Mobile foi criado primeiro e é o principal (MOBILE FIRST) Agora vamos adicionar os contents responsivos, o do
+tablet, desktop, etc.*/
+.content {
+    /* rem diferente do pixel é uma únidade de medida mais flexível, que vai depender da config 
+    do navegador/dispotivo. */
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFFFFF;
+}
+
+
+
+
